@@ -1,0 +1,15 @@
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+      pointer-events: none;
+  }
+  ._nav i{
+    transition: all 0.7s;
+    cursor: pointer;
+  }
+  ._nav i:hover{
+    color: #0aad0a;
+  }

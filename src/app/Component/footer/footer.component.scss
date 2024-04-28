@@ -1,0 +1,15 @@
+$light-color-footer: #f0f0f0;
+:host{
+    margin-top: auto;
+}
+._Pay span i{
+    color: rgb(77, 75, 74);
+    transition: all .7s;
+}
+._Pay span i:hover{
+    color:#0aad0a;
+}
+
+.bg-footer-light {
+    background-color: $light-color-footer;
+}
